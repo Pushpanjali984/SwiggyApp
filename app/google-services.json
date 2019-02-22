@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "621865624524",
+    "firebase_url": "https://swiggyapp-ffe82.firebaseio.com",
+    "project_id": "swiggyapp-ffe82",
+    "storage_bucket": "swiggyapp-ffe82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621865624524:android:a1dfc500153a6e72",
+        "android_client_info": {
+          "package_name": "com.androtech.swiggyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621865624524-f70sjh152l6hitv5nvro9g6vkj10u73q.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "621865624524-f70sjh152l6hitv5nvro9g6vkj10u73q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCebc6SU1MbwLb-xqNU7zBLEgGKd50V4cE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

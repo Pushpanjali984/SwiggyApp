@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/cardView"
+        app:cardCornerRadius="5dp"
+       app:cardBackgroundColor="#facee5"
+        android:layout_margin="2dp"
+       app:cardMaxElevation="5dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+       android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/imageView"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:weightSum="3"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/tvName"
+            android:text="Name"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/tvCategory"
+            android:layout_marginLeft="10dp"
+            android:textColor="#e4211d1d"
+            android:textSize="16dp"
+            android:textStyle="normal"
+            android:text="Category"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:textColor="#e4211d1d"
+                android:textSize="16dp"
+                android:drawableLeft="@drawable/ic_star_black_24dp"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:id="@+id/ratings"
+                android:text=" 4.2"/>
+
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:textColor="#e4211d1d"
+                android:textSize="16dp"
+                android:textStyle="normal"
+                android:layout_marginTop="5dp"
+                android:id="@+id/time"
+                android:drawableLeft="@drawable/ic_access_time_black_24dp"
+                android:text=" 45 MINS"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+</LinearLayout>

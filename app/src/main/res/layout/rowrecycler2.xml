@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="185dp"
+    android:layout_height="250dp"
+    android:gravity="center"
+    android:background="#facee5"
+     android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="3dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:id="@+id/imageRecycler"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameRecycler"
+        android:text="Restaurant Name"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/categoryRecycler"
+        android:text="Category Name"
+        android:layout_marginTop="3dp"
+        android:textSize="15dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_marginLeft="10dp"
+            android:text="₹"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:textSize="16dp"
+            android:id="@+id/recyclerPrice"
+            android:layout_marginLeft="1dp"
+            android:text="150"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="0.5"
+            android:textSize="15dp"
+            android:background="#f4f1f1"
+            android:id="@+id/addButton"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            android:textColor="#871111"
+            android:layout_marginLeft="8dp"
+            android:text="+"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:layout_weight="0.25"
+            android:textStyle="bold"
+            android:id="@+id/countItem"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text=""/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="0.5"
+            android:textSize="15dp"
+            android:background="#f4f1f1"
+            android:id="@+id/removeButton"
+
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            android:textColor="#871111"
+            android:text="-"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
